@@ -44,3 +44,25 @@ git clone https://github.com/tridev002/crud-api.git
 cd crud-api
 
 ```
+### 2. Install Dependencies
+Install the required npm packages:
+```bash
+npm install
+
+```
+### 3. Set Up Environment Variables
+Create a `.env` file in the root directory and add the following variables:
+```bash
+PORT=3000
+MONGODB_URI=your_mongodb_atlas_connection_string
+
+```
+Replace `your_mongodb_atlas_connection_string` with your MongoDB Atlas connection URI.
+
+### 4. Run the Application
+Start the server:
+``` bash 
+npm start
+```
+The API will be running at `http://localhost:3000`.
+
